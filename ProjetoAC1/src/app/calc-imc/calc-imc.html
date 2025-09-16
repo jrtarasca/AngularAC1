@@ -1,0 +1,20 @@
+<div class="container">
+    
+    <p>
+        <label>Digite seu peso:</label>
+        <input type="number" [(ngModel)]="peso">
+    </p>
+    
+    
+    
+    <p>
+        <label>Digite seu Altura:</label>
+        <input type="number" [(ngModel)]="altura">
+    </p>
+    
+    
+    <button (click)="somar()">Calcular</button>
+    
+    <p>Resultado: {{ IMC }}</p>
+    <p>Você é: {{ resultado }}</p>
+</div>

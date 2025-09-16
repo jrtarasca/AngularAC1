@@ -1,0 +1,29 @@
+<div class="container">
+    
+    <p>
+        <label>Digite sua AC1:</label>
+        <input type="number" [(ngModel)]="AC1">
+    </p>
+    
+    
+    
+    <p>
+        <label>Digite sua AC2:</label>
+        <input type="number" [(ngModel)]="AC2">
+    </p>
+    
+    <p>
+        <label>Digite sua AG:</label>
+        <input type="number" [(ngModel)]="AG">
+    </p>
+    
+    <p>
+        <label>Digite sua AF:</label>
+        <input type="number" [(ngModel)]="AF">
+    </p>
+    
+    
+    <button (click)="calcular()">Calcular</button>
+    
+    <p>Resultado: {{ media }}</p>
+</div>

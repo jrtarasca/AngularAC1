@@ -1,0 +1,23 @@
+<p>
+    <label>Digite seu Nome</label>
+    <input type="text" name="" id="">
+</p>
+
+<p>
+    <label>Digite sua Idade</label>
+    <input type="number" [(ngModel)] = 'idd'>
+</p>
+
+<p>
+    <label>Qual o seu Sexo? (M/F)</label>
+    <input type="text" [(ngModel)] = sexo>
+</p>
+
+<p>
+    <label>Digite o Valor do Automóvel</label>
+    <input type="number" [(ngModel)] = 'valor'>
+</p>
+
+<button (click)="calcular()">Calcular</button>
+
+<p>O valor da sua apólice é: {{ apolice }}</p>
